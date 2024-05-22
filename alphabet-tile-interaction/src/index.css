@@ -1,0 +1,35 @@
+/* src/App.css */
+.app {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#outputString {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tile:hover {
+  background-color: #ddd;
+}
